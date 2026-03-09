@@ -1,47 +1,140 @@
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![React](https://img.shields.io/badge/React-18-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38bdf8)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
+
+# Shivam Mishra – Developer Portfolio
+
 <div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
+<img alt="Portfolio Preview" src="./public/myportfolio.png" width="90%">
 </div>
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+## Overview
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+This repository contains the source code for my personal developer portfolio built using modern web technologies. The portfolio showcases my projects, technical skills, and development experience.
 
-# Features
+The goal of this project is to present my work, demonstrate full-stack development ability, and provide an easy way for recruiters and collaborators to explore my projects.
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+Live Website:
+https://www.shivam-30-mishra.vercel.app
 
-# Getting Started Locally
+---
 
-1. Clone this repository to your local machine:
+## Tech Stack
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+The portfolio is built using a modern frontend stack focused on performance and scalability.
 
-2. Move to the cloned directory
+* **Framework:** Next.js 14
+* **Language:** TypeScript
+* **Frontend Library:** React
+* **UI Components:** Shadcn/UI
+* **Styling:** TailwindCSS
+* **Animations:** Framer Motion
+* **UI Utilities:** Magic UI
+* **Deployment:** Vercel
 
-   ```bash
-   cd portfolio
-   ```
+---
 
-3. Install dependencies:
+## Features
 
-   ```bash
-   pnpm install
-   ```
+* Responsive portfolio website
+* Project showcase with GitHub and live links
+* Clean modern UI built with component-based architecture
+* Fast performance using Next.js optimization
+* Config-driven portfolio content
+* Easy customization via a single configuration file
+* Blog support (optional)
 
-4. Start the local Server:
+---
 
-   ```bash
-   pnpm dev
-   ```
+## Project Structure
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+src/
+components/ → Reusable UI components
+data/ → Portfolio configuration data
+app/ → Next.js app router pages
+public/ → Static assets (images, icons)
 
-# License
+Most personal data and portfolio content can be edited inside:
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+src/data/resume.tsx
+
+---
+
+## Running the Project Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Shivam30Mishra/portfolio
+```
+
+Move into the project directory:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+Run the development server:
+
+```bash
+pnpm dev
+```
+
+Open your browser and go to:
+
+http://localhost:3000
+
+---
+
+## Customization
+
+All portfolio content such as:
+
+* Personal information
+* Skills
+* Projects
+* Social links
+* Education
+
+can be modified in the configuration file:
+
+src/data/resume.tsx
+
+---
+
+## Deployment
+
+The portfolio is deployed using **Vercel**.
+
+To deploy your own version:
+
+1. Fork the repository
+2. Connect it to Vercel
+3. Deploy instantly
+
+---
+
+## Contact
+
+GitHub:
+https://github.com/Shivam30Mishra
+
+LinkedIn:
+https://www.linkedin.com/in/shivam-mishra-777026280
+
+Email:
+[theshivammishra10@gmail.com](mailto:theshivammishra10@gmail.com)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
