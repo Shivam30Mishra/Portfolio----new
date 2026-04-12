@@ -98,6 +98,56 @@ export const DATA = {
   ],
   pprojects: [
     {
+      title: "Network Security System",
+      href: "https://github.com/theshivammishra10/Network-Security-System",
+      dates: "Feb 2026",
+      active: true,
+      description:
+        "A production-ready ML pipeline for detecting phishing websites. Features automated data ingestion from MongoDB, schema validation, and drift detection. Deployed as a FastAPI service using Docker and MLflow for experiment tracking.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "Scikit-learn",
+        "MLflow",
+        "MongoDB",
+        "Docker",
+        "AWS S3",
+        "DagsHub"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Shivam30Mishra/Network-Security-System",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/network-security.png",
+      video: "",
+    },
+    {
+      title: "Heart Disease Prediction System",
+      href: "#",
+      dates: "Dec 2025",
+      active: true,
+      description:
+        "An intelligent medical diagnostic system using classification algorithms to predict cardiovascular risks. Includes a real-time monitoring dashboard for clinical data analysis and health risk assessment.",
+      technologies: ["Python", "Scikit-learn", "FastAPI", "Pandas", "React", "Tailwind CSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://heartwise-carings.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Shivam30Mishra/heartwise-caring",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/heart-disease.png",
+      video: "",
+    },
+    {
       title: "LogisticsFlow",
       href: "https://snapcart-eight.vercel.app/",
       dates: "Jan 2026",
