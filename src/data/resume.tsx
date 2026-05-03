@@ -6,12 +6,11 @@ export const DATA = {
   initials: "SM",
   url: "https://www.shivam-30.vercel.app/",
   location: "Hyderabad, India",
-  // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-"Web Developer - building, learning, and sharing on X.",
+    "AI Full Stack Developer - building intelligent systems and scalable products.",
   summary:
-"I’m a Web-focused Full Stack Developer and entrepreneur, currently building scalable SaaS applications. With experience across multiple hackathons , 1 hackathon winnner(DSA based), and grants, I love turning ideas into products that bridges optimized backend and user friendly UI. Beyond coding, I enjoy experimenting, sharing, and contributing to the developer ecosystem."  ,
-avatarUrl: "/pfp.jpeg",
+    "I’m an AI-focused Full Stack Developer and entrepreneur, currently building scalable SaaS applications with integrated intelligence. With experience across multiple hackathons, a DSA-based hackathon win, and various grants, I specialize in turning complex data-driven ideas into user-friendly products. I love bridging the gap between optimized ML backends and intuitive UI, while contributing to the evolving AI developer ecosystem.",
+  avatarUrl: "/pfp.jpeg",
   skills: [
     "React",
     "Next.js",
@@ -19,81 +18,77 @@ avatarUrl: "/pfp.jpeg",
     "Node.js",
     "Python",
     "C++",
+    "FastAPI",
+    "Scikit-learn",
+    "MLflow",
     "PostgreSQL",
     "MongoDB",
     "Docker",
+    "AWS",
   ],
   services: [
     {
-      title: "Web3 Development",
-      description: "Smart contracts, DeFi protocols, NFT platforms, and blockchain integrations. Experience with Solidity, Rust, and multiple chains.",
-      icon: "🔗",
+      title: "AI & ML Integration",
+      description: "Developing production-ready machine learning pipelines, custom LLM implementations, and intelligent automation for modern web platforms.",
+      icon: "🤖",
     },
     {
       title: "Full-Stack Development",
-      description: "End-to-end web applications with modern frameworks. React, Next.js, TypeScript, Node.js, and cloud deployment.",
+      description: "End-to-end web applications with modern frameworks. Expertise in React, Next.js, TypeScript, Node.js, and cloud-native deployment.",
       icon: "⚡",
     },
     {
-      title: "Smart Contract Auditing",
-      description: "Security-focused smart contract reviews and optimizations. Ensuring your contracts are production-ready and secure.",
-      icon: "🔒",
+      title: "MLOps & Cloud Arch",
+      description: "Building robust ML pipelines with experiment tracking, automated data ingestion, and containerized deployment using Docker and AWS.",
+      icon: "⚙️",
     },
     {
       title: "SaaS Development",
-      description: "Scalable SaaS applications with modern architecture. From MVP to production with performance optimization.",
+      description: "Building scalable SaaS applications from MVP to production, focusing on high performance, security, and AI-driven features.",
       icon: "🚀",
     },
   ],
   availability: {
     status: "Available",
-    message: "Open to new freelance projects and collaborations",
+    message: "I’m currently available for freelance projects, consulting, and AI-driven collaborations. Whether you need to integrate LLMs, build an ML pipeline, or develop a scalable full-stack application, let’s bring your vision to life.",
   },
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "theshivammishra10@gmail.com",
-    // tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/Shivam30Mishra",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/shivam-mishra-777026280/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/shivamM97963756",
         icon: Icons.x,
-
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:theshivammishra10@gmail.com",
         icon: Icons.email,
-
         navbar: false,
       },
     },
   },
-
-  work: [
-          
-  ],
+  work: [],
   education: [
     {
-      school: "Vellore institue of technology",
+      school: "Vellore Institute of Technology",
       href: "https://vitbhopal.ac.in",
       degree: "Bachelor of Technology in Computer Science and Engineering",
       logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/250px-Vellore_Institute_of_Technology_seal_2017.svg.png",
@@ -103,95 +98,12 @@ avatarUrl: "/pfp.jpeg",
   ],
   pprojects: [
     {
-      title: "Network Security System",
-      href: "https://github.com/theshivammishra10/Network-Security-System",
-      dates: "Feb 2026",
-      active: true,
-      description:
-        "A production-ready ML pipeline for detecting phishing websites. Features automated data ingestion from MongoDB, schema validation, and drift detection. Deployed as a FastAPI service using Docker and MLflow for experiment tracking.",
-      technologies: [
-        "Python",
-        "FastAPI",
-        "Scikit-learn",
-        "MLflow",
-        "MongoDB",
-        "Docker",
-        "AWS S3",
-        "DagsHub"
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/Shivam30Mishra/Network-Security-System",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/network-security.png",
-      video: "",
-    },
-    {
-      title: "Blogging Platform",
-      href: "https://blogging-website-navy.vercel.app/",
-      dates: "2026",
-      active: true,
-      description:
-        "A full-stack blogging platform supporting content creation, editing, and publishing. Implemented authentication, rich text handling, and optimized API interactions for smooth user experience and fast content delivery.",
-      technologies: [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Node.js",
-        "MongoDB",
-        "Tailwind CSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://blogging-website-navy.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Shivam30Mishra/Blogging-Website",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/blog.png",
-      video: "",
-    },
-
-    {
-      title: "Nova Workflow Orchestrator",
-      href: "https://github.com/Shivam30Mishra/nova-workflow-orchestrator",
-      dates: "2026",
-      active: true,
-      description:
-        "A workflow orchestration system inspired by real-world AI agents, designed to extract, validate, and process structured data from documents. Built with modular architecture to support scalable task pipelines and backend integrations.",
-      technologies: [
-        "Python",
-        "FastAPI",
-        "LangGraph",
-        "Docker",
-        "REST APIs",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/Shivam30Mishra/nova-workflow-orchestrator",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/agent.png",
-      video: "",
-    },
-
-    {
       title: "LogisticsFlow",
       href: "https://snapcart-eight.vercel.app/",
       dates: "Jan 2026",
       active: true,
       description:
-        "A high-concurrency grocery ecosystem featuring live GPS tracking and instant order synchronization. Built with a hybrid REST + WebSocket architecture to handle real-time communication and secure OTP-based delivery verification.",
+        "A high-concurrency grocery ecosystem featuring live GPS tracking and instant order synchronization. Built with a hybrid REST + WebSocket architecture to handle real-time communication and secure delivery verification.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -199,7 +111,7 @@ avatarUrl: "/pfp.jpeg",
         "Redux",
         "Socket.io",
         "Tailwind CSS",
-        "Mongo DB"
+        "MongoDB"
       ],
       links: [
         {
@@ -222,14 +134,8 @@ avatarUrl: "/pfp.jpeg",
       dates: "Jan 2025",
       active: true,
       description:
-        "An AI-powered thumbnail generator that helps creators quickly design engaging thumbnails using prompt-based generation and customizable templates. Integrates AI APIs with a responsive React interface to simplify content creation.",
-      technologies: [
-        "React",
-        "Tailwind CSS",
-        "MongoDB",
-        "TypeScript",
-        "Google Gemini API",
-      ],
+        "Developed an AI-powered drag-and-drop platform to simplify Rust smart contract creation. Features Scratch-like interface, AI-assisted generation, and pre-made templates. Used by 200+ developers, reducing contract development time by 70%.",
+      technologies: ["React", "Tailwind CSS", "MongoDB", "Typescript", "Google Gemini API"],
       links: [
         {
           type: "Website",
@@ -247,12 +153,12 @@ avatarUrl: "/pfp.jpeg",
     },
     {
       title: "My Portfolio",
-      href: "",
+      href: "/",
       dates: "2025",
       active: true,
       description:
-        "Web3 application for creating, remixing, and licensing creative IP with 100+ registered works and $5K+ in licensing revenue. Creators register original works onchain, others fork with attribution, and licenses define usage and monetization.",
-      technologies: ["Next.js", "TypeScript", "Solidity", "Web3"],
+        "A modern personal portfolio built with Next.js 14, React, and TailwindCSS. It features a clean, responsive design with a custom blog system and integrated UI components from Shadcn/UI, Magic UI, and Framer Motion.",
+      technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Framer Motion", "Shadcn/UI"],
       links: [
         {
           type: "Website",
@@ -265,9 +171,8 @@ avatarUrl: "/pfp.jpeg",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      // image: "/fork.png",
-      image: "/myportfolio.png", 
-      video: "", // Add screenshot: "/forkyoudaddy.png" (place in /public folder) or use external URL
+      image: "/myportfolio.png",
+      video: "",
     }
   ],
 } as const;

@@ -196,10 +196,7 @@ export default function Page() {
                 Ready to Build Something Great?
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I&apos;m available for freelance projects, consulting, and
-                collaborations. Whether you need a Web3 dApp, a full-stack
-                application, or smart contract development, let&apos;s discuss
-                how I can help bring your vision to life.
+                Available for freelance projects and AI collaborations. From custom machine learning integrations to end-to-end full-stack development, I build scalable solutions that bridge the gap between intelligent backends and intuitive interfaces. Let’s talk about your next project.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center items-center pt-4">
                 <Button asChild size="lg" className="w-full sm:w-auto">
