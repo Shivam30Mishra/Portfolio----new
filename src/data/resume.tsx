@@ -1,20 +1,17 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Shivam Mishra",
   initials: "SM",
-  url: "https://www.shivam-30-mishra.vercel.app/",
+  url: "https://www.shivam-30.vercel.app/",
   location: "Hyderabad, India",
-
+  // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Full-Stack Web Developer focused on building scalable and performant web applications.",
-
+"Web Developer - building, learning, and sharing on X.",
   summary:
-    "Computer Science student at VIT with a strong interest in full-stack development and problem solving. I build modern web applications using React, Next.js, Node.js, and databases such as MongoDB and PostgreSQL. My work focuses on creating reliable backend systems and responsive user interfaces. I enjoy transforming ideas into working products and continuously improving my engineering skills through projects and competitive programming.",
-
-  avatarUrl: "/pfp.jpeg",
-
+"I’m a Web-focused Full Stack Developer and entrepreneur, currently building scalable SaaS applications. With experience across multiple hackathons , 1 hackathon winnner(DSA based), and grants, I love turning ideas into products that bridges optimized backend and user friendly UI. Beyond coding, I enjoy experimenting, sharing, and contributing to the developer ecosystem."  ,
+avatarUrl: "/pfp.jpeg",
   skills: [
     "React",
     "Next.js",
@@ -26,86 +23,84 @@ export const DATA = {
     "MongoDB",
     "Docker",
   ],
-
   services: [
     {
-      title: "Full Stack Development",
-      description:
-        "Building scalable web applications using React, Next.js, Node.js, and modern backend architectures.",
+      title: "Web3 Development",
+      description: "Smart contracts, DeFi protocols, NFT platforms, and blockchain integrations. Experience with Solidity, Rust, and multiple chains.",
+      icon: "🔗",
+    },
+    {
+      title: "Full-Stack Development",
+      description: "End-to-end web applications with modern frameworks. React, Next.js, TypeScript, Node.js, and cloud deployment.",
       icon: "⚡",
     },
     {
-      title: "Frontend Development",
-      description:
-        "Developing responsive and accessible user interfaces using React, TypeScript, and modern UI frameworks.",
-      icon: "🎨",
+      title: "Smart Contract Auditing",
+      description: "Security-focused smart contract reviews and optimizations. Ensuring your contracts are production-ready and secure.",
+      icon: "🔒",
     },
     {
-      title: "Backend Development",
-      description:
-        "Designing REST APIs, database schemas, and backend services using Node.js, MongoDB, and PostgreSQL.",
-      icon: "🛠",
-    },
-    {
-      title: "Performance Optimization",
-      description:
-        "Improving application performance through efficient data handling, optimized queries, and scalable architecture.",
+      title: "SaaS Development",
+      description: "Scalable SaaS applications with modern architecture. From MVP to production with performance optimization.",
       icon: "🚀",
     },
   ],
-
   availability: {
     status: "Available",
-    message: "Open to internships and software engineering opportunities",
+    message: "Open to new freelance projects and collaborations",
   },
-
-  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
-
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+  ],
   contact: {
     email: "theshivammishra10@gmail.com",
-
+    // tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/Shivam30Mishra",
         icon: Icons.github,
+
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/shivam-mishra-777026280/",
         icon: Icons.linkedin,
+
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/shivamM97963756",
         icon: Icons.x,
+
         navbar: true,
       },
       email: {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
+
         navbar: false,
       },
     },
   },
 
-  work: [],
-
+  work: [
+          
+  ],
   education: [
     {
-      school: "Vellore Institute of Technology",
+      school: "Vellore institue of technology",
       href: "https://vitbhopal.ac.in",
       degree: "Bachelor of Technology in Computer Science and Engineering",
-      logoUrl:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/250px-Vellore_Institute_of_Technology_seal_2017.svg.png",
+      logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/250px-Vellore_Institute_of_Technology_seal_2017.svg.png",
       start: "2023",
       end: "2027",
     },
   ],
-
   pprojects: [
     {
       title: "Network Security System",
@@ -196,7 +191,7 @@ export const DATA = {
       dates: "Jan 2026",
       active: true,
       description:
-        "A real-time logistics and grocery delivery platform with live order tracking and delivery verification. Built using a hybrid REST and WebSocket architecture to enable real-time updates between customers, delivery partners, and backend services.",
+        "A high-concurrency grocery ecosystem featuring live GPS tracking and instant order synchronization. Built with a hybrid REST + WebSocket architecture to handle real-time communication and secure OTP-based delivery verification.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -204,7 +199,7 @@ export const DATA = {
         "Redux",
         "Socket.io",
         "Tailwind CSS",
-        "MongoDB",
+        "Mongo DB"
       ],
       links: [
         {
@@ -221,14 +216,13 @@ export const DATA = {
       image: "/snapcart.png",
       video: "",
     },
-
     {
       title: "Thumbnailify",
       href: "https://thumbnailgo.com/",
       dates: "Jan 2025",
       active: true,
       description:
-        "An AI-powered thumbnail generator that helps creators quickly design engaging thumbnails using prompt-based generation and customizable templates.",
+        "An AI-powered thumbnail generator that helps creators quickly design engaging thumbnails using prompt-based generation and customizable templates. Integrates AI APIs with a responsive React interface to simplify content creation.",
       technologies: [
         "React",
         "Tailwind CSS",
@@ -251,19 +245,18 @@ export const DATA = {
       image: "/thumbnailgo.png",
       video: "",
     },
-
     {
-      title: "Developer Portfolio",
-      href: "https://www.shivam-30-mishra.vercel.app/",
+      title: "My Portfolio",
+      href: "",
       dates: "2025",
       active: true,
       description:
-        "Personal developer portfolio built to showcase projects, technical skills, and development experience with a focus on performance and clean architecture.",
+        "Personal developer portfolio built to showcase projects, technical skills, and development experience. Developed with Next.js and TypeScript with a focus on performance, responsive design, and clean component architecture.",
       technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
       links: [
         {
           type: "Website",
-          href: "https://shivam-portfolio-march.vercel.app/",
+          href: "https://www.shivam-30-mishra.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -272,8 +265,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/myportfolio.png",
-      video: "",
-    },
+      // image: "/fork.png",
+      image: "/myportfolio.png", 
+      video: "", // Add screenshot: "/forkyoudaddy.png" (place in /public folder) or use external URL
+    }
   ],
 } as const;
