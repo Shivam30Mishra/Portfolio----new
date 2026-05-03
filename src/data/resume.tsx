@@ -251,8 +251,8 @@ avatarUrl: "/pfp.jpeg",
       dates: "2025",
       active: true,
       description:
-        "Personal developer portfolio built to showcase projects, technical skills, and development experience. Developed with Next.js and TypeScript with a focus on performance, responsive design, and clean component architecture.",
-      technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
+        "Web3 application for creating, remixing, and licensing creative IP with 100+ registered works and $5K+ in licensing revenue. Creators register original works onchain, others fork with attribution, and licenses define usage and monetization.",
+      technologies: ["Next.js", "TypeScript", "Solidity", "Web3"],
       links: [
         {
           type: "Website",
