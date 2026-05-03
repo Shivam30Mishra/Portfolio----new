@@ -105,10 +105,6 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 8}>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
-<<<<<<< HEAD
-=======
-          
->>>>>>> 88c7ec0 (removed work experience for now)
         </div>
       </section>
       <section id="education">

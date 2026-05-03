@@ -108,6 +108,89 @@ export const DATA = {
 
   pprojects: [
     {
+      title: "Network Security System",
+      href: "https://github.com/theshivammishra10/Network-Security-System",
+      dates: "Feb 2026",
+      active: true,
+      description:
+        "A production-ready ML pipeline for detecting phishing websites. Features automated data ingestion from MongoDB, schema validation, and drift detection. Deployed as a FastAPI service using Docker and MLflow for experiment tracking.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "Scikit-learn",
+        "MLflow",
+        "MongoDB",
+        "Docker",
+        "AWS S3",
+        "DagsHub"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Shivam30Mishra/Network-Security-System",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/network-security.png",
+      video: "",
+    },
+    {
+      title: "Blogging Platform",
+      href: "https://blogging-website-navy.vercel.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "A full-stack blogging platform supporting content creation, editing, and publishing. Implemented authentication, rich text handling, and optimized API interactions for smooth user experience and fast content delivery.",
+      technologies: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://blogging-website-navy.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Shivam30Mishra/Blogging-Website",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/blog.png",
+      video: "",
+    },
+
+    {
+      title: "Nova Workflow Orchestrator",
+      href: "https://github.com/Shivam30Mishra/nova-workflow-orchestrator",
+      dates: "2026",
+      active: true,
+      description:
+        "A workflow orchestration system inspired by real-world AI agents, designed to extract, validate, and process structured data from documents. Built with modular architecture to support scalable task pipelines and backend integrations.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Docker",
+        "REST APIs",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Shivam30Mishra/nova-workflow-orchestrator",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/agent.png",
+      video: "",
+    },
+
+    {
       title: "LogisticsFlow",
       href: "https://snapcart-eight.vercel.app/",
       dates: "Jan 2026",
@@ -145,7 +228,7 @@ export const DATA = {
       dates: "Jan 2025",
       active: true,
       description:
-        "An AI-powered thumbnail generator that helps creators quickly design engaging thumbnails using prompt-based generation and customizable templates. Integrates AI APIs with a responsive React interface to simplify content creation.",
+        "An AI-powered thumbnail generator that helps creators quickly design engaging thumbnails using prompt-based generation and customizable templates.",
       technologies: [
         "React",
         "Tailwind CSS",
@@ -175,7 +258,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Personal developer portfolio built to showcase projects, technical skills, and development experience. Developed with Next.js and TypeScript with a focus on performance, responsive design, and clean component architecture.",
+        "Personal developer portfolio built to showcase projects, technical skills, and development experience with a focus on performance and clean architecture.",
       technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
       links: [
         {
