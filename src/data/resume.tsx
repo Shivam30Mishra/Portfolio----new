@@ -1,16 +1,20 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Shivam Mishra",
   initials: "SM",
-  url: "https://www.shivam-30.vercel.app/",
+  url: "https://www.shivam-30-mishra.vercel.app/",
   location: "Hyderabad, India",
+
   description:
-    "AI Full Stack Developer - building intelligent systems and scalable products.",
+    "Full-Stack Web Developer focused on building scalable and performant web applications.",
+
   summary:
-    "I’m an AI-focused Full Stack Developer and entrepreneur, currently building scalable SaaS applications with integrated intelligence. With experience across multiple hackathons, a DSA-based hackathon win, and various grants, I specialize in turning complex data-driven ideas into user-friendly products. I love bridging the gap between optimized ML backends and intuitive UI, while contributing to the evolving AI developer ecosystem.",
+    "Computer Science student at VIT with a strong interest in full-stack development and problem solving. I build modern web applications using React, Next.js, Node.js, and databases such as MongoDB and PostgreSQL. My work focuses on creating reliable backend systems and responsive user interfaces. I enjoy transforming ideas into working products and continuously improving my engineering skills through projects and competitive programming.",
+
   avatarUrl: "/pfp.jpeg",
+
   skills: [
     "React",
     "Next.js",
@@ -18,46 +22,48 @@ export const DATA = {
     "Node.js",
     "Python",
     "C++",
-    "FastAPI",
-    "Scikit-learn",
-    "MLflow",
     "PostgreSQL",
     "MongoDB",
     "Docker",
-    "AWS",
   ],
+
   services: [
     {
-      title: "AI & ML Integration",
-      description: "Developing production-ready machine learning pipelines, custom LLM implementations, and intelligent automation for modern web platforms.",
-      icon: "🤖",
-    },
-    {
-      title: "Full-Stack Development",
-      description: "End-to-end web applications with modern frameworks. Expertise in React, Next.js, TypeScript, Node.js, and cloud-native deployment.",
+      title: "Full Stack Development",
+      description:
+        "Building scalable web applications using React, Next.js, Node.js, and modern backend architectures.",
       icon: "⚡",
     },
     {
-      title: "MLOps & Cloud Arch",
-      description: "Building robust ML pipelines with experiment tracking, automated data ingestion, and containerized deployment using Docker and AWS.",
-      icon: "⚙️",
+      title: "Frontend Development",
+      description:
+        "Developing responsive and accessible user interfaces using React, TypeScript, and modern UI frameworks.",
+      icon: "🎨",
     },
     {
-      title: "SaaS Development",
-      description: "Building scalable SaaS applications from MVP to production, focusing on high performance, security, and AI-driven features.",
+      title: "Backend Development",
+      description:
+        "Designing REST APIs, database schemas, and backend services using Node.js, MongoDB, and PostgreSQL.",
+      icon: "🛠",
+    },
+    {
+      title: "Performance Optimization",
+      description:
+        "Improving application performance through efficient data handling, optimized queries, and scalable architecture.",
       icon: "🚀",
     },
   ],
+
   availability: {
     status: "Available",
-    message: "I’m currently available for freelance projects, consulting, and AI-driven collaborations. Whether you need to integrate LLMs, build an ML pipeline, or develop a scalable full-stack application, let’s bring your vision to life.",
+    message: "Open to internships and software engineering opportunities",
   },
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/", icon: NotebookIcon, label: "Blog" },
-  ],
+
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
+
   contact: {
     email: "theshivammishra10@gmail.com",
+
     social: {
       GitHub: {
         name: "GitHub",
@@ -79,23 +85,27 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:theshivammishra10@gmail.com",
+        url: "#",
         icon: Icons.email,
         navbar: false,
       },
     },
   },
+
   work: [],
+
   education: [
     {
       school: "Vellore Institute of Technology",
       href: "https://vitbhopal.ac.in",
       degree: "Bachelor of Technology in Computer Science and Engineering",
-      logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/250px-Vellore_Institute_of_Technology_seal_2017.svg.png",
+      logoUrl:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/250px-Vellore_Institute_of_Technology_seal_2017.svg.png",
       start: "2023",
       end: "2027",
     },
   ],
+
   pprojects: [
     {
       title: "Network Security System",
@@ -125,6 +135,61 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Blogging Platform",
+      href: "https://blogging-website-navy.vercel.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "A full-stack blogging platform supporting content creation, editing, and publishing. Implemented authentication, rich text handling, and optimized API interactions for smooth user experience and fast content delivery.",
+      technologies: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://blogging-website-navy.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Shivam30Mishra/Blogging-Website",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/blog.png",
+      video: "",
+    },
+
+    {
+      title: "Nova Workflow Orchestrator",
+      href: "https://github.com/Shivam30Mishra/nova-workflow-orchestrator",
+      dates: "2026",
+      active: true,
+      description:
+        "A workflow orchestration system inspired by real-world AI agents, designed to extract, validate, and process structured data from documents. Built with modular architecture to support scalable task pipelines and backend integrations.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Docker",
+        "REST APIs",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Shivam30Mishra/nova-workflow-orchestrator",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/agent.png",
+      video: "",
+    },
+    {
       title: "Heart Disease Prediction System",
       href: "#",
       dates: "Dec 2025",
@@ -147,13 +212,14 @@ export const DATA = {
       image: "/heart-disease.png",
       video: "",
     },
+
     {
       title: "LogisticsFlow",
       href: "https://snapcart-eight.vercel.app/",
       dates: "Jan 2026",
       active: true,
       description:
-        "A high-concurrency grocery ecosystem featuring live GPS tracking and instant order synchronization. Built with a hybrid REST + WebSocket architecture to handle real-time communication and secure delivery verification.",
+        "A real-time logistics and grocery delivery platform with live order tracking and delivery verification. Built using a hybrid REST and WebSocket architecture to enable real-time updates between customers, delivery partners, and backend services.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -161,7 +227,7 @@ export const DATA = {
         "Redux",
         "Socket.io",
         "Tailwind CSS",
-        "MongoDB"
+        "MongoDB",
       ],
       links: [
         {
@@ -178,14 +244,21 @@ export const DATA = {
       image: "/snapcart.png",
       video: "",
     },
+
     {
       title: "Thumbnailify",
       href: "https://thumbnailgo.com/",
       dates: "Jan 2025",
       active: true,
       description:
-        "Developed an AI-powered drag-and-drop platform to simplify Rust smart contract creation. Features Scratch-like interface, AI-assisted generation, and pre-made templates. Used by 200+ developers, reducing contract development time by 70%.",
-      technologies: ["React", "Tailwind CSS", "MongoDB", "Typescript", "Google Gemini API"],
+        "An AI-powered thumbnail generator that helps creators quickly design engaging thumbnails using prompt-based generation and customizable templates.",
+      technologies: [
+        "React",
+        "Tailwind CSS",
+        "MongoDB",
+        "TypeScript",
+        "Google Gemini API",
+      ],
       links: [
         {
           type: "Website",
@@ -201,18 +274,19 @@ export const DATA = {
       image: "/thumbnailgo.png",
       video: "",
     },
+
     {
-      title: "My Portfolio",
-      href: "/",
+      title: "Developer Portfolio",
+      href: "https://www.shivam-30-mishra.vercel.app/",
       dates: "2025",
       active: true,
       description:
-        "A modern personal portfolio built with Next.js 14, React, and TailwindCSS. It features a clean, responsive design with a custom blog system and integrated UI components from Shadcn/UI, Magic UI, and Framer Motion.",
-      technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Framer Motion", "Shadcn/UI"],
+        "Personal developer portfolio built to showcase projects, technical skills, and development experience with a focus on performance and clean architecture.",
+      technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
       links: [
         {
           type: "Website",
-          href: "https://www.shivam-30-mishra.vercel.app/",
+          href: "https://shivam-portfolio-march.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -223,6 +297,6 @@ export const DATA = {
       ],
       image: "/myportfolio.png",
       video: "",
-    }
+    },
   ],
 } as const;
