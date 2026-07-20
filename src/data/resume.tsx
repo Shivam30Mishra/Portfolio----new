@@ -16,6 +16,9 @@ export const DATA = {
   avatarUrl: "/pfp.jpeg",
 
   skills: [
+    "Meta Graph API",
+    "Supabase",
+    "Edge Functions",
     "React",
     "Next.js",
     "TypeScript",
@@ -54,10 +57,10 @@ export const DATA = {
     },
   ],
 
-  availability: {
-    status: "Available",
-    message: "Open to internships and software engineering opportunities",
-  },
+  // availability: {
+  //   status: "Available",
+  //   message: "Open to internships and software engineering opportunities",
+  // },
 
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
 
@@ -92,7 +95,23 @@ export const DATA = {
     },
   },
 
-  work: [],
+  work: [
+     {
+        company: "Hivon Automations LLP",
+        href: "https://www.hivon.in/", // add company website if available
+        badges: ["Contract"],
+        location: "hybrid, Noida", 
+        title: "AI Full Stack Developer",
+        logoUrl: "/hivon.png",
+        // logoUrl: "https://media.licdn.com/dms/image/v2/D4E16AQFDashwb8wvQA/profile-displaybackgroundimage-shrink_350_1400/B4EZXJDZsJGwAo-/0/1742834867726?e=1764201600&v=beta&t=eIWd9j5D3fyoqKqz2MxID6wyDearKSM3eVZtmYFhjwQ",
+        start: "June 2026", // update with actual start date
+        end: "Present",
+        description:
+          "My current work involves building and optimizing AI-driven workflows using Next.js, Supabase, n8n, and Edge Functions. A major focus of my internship is migrating business logic from n8n workflows to Supabase Edge Functions to improve performance, reduce unnecessary CPU usage using deno runtime in edge functions, and create a more efficient  ERP systems.
+
+Alongside development, I also collaborate closely with fellow interns by leading small teams, breaking down tasks, reviewing implementation approaches, and helping ensure projects are delivered efficiently.",
+      }
+  ],
 
   education: [
     {
