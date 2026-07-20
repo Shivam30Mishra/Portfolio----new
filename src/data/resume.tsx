@@ -11,7 +11,11 @@ export const DATA = {
     "Full-Stack Web Developer focused on building scalable and performant web applications.",
 
   summary:
-    "Computer Science student at VIT with a strong interest in full-stack development and problem solving. I build modern web applications using React, Next.js, Node.js, and databases such as MongoDB and PostgreSQL. My work focuses on creating reliable backend systems and responsive user interfaces. I enjoy transforming ideas into working products and continuously improving my engineering skills through projects and competitive programming.",
+    "I'm a third-year Computer Science student at VIT with a strong interest in contributing to scalable software and AI-powered applications. Currently, I'm working as an AI Full Stack Developer Intern at Hivon Automations LLP.
+ 
+My current work involves building and optimizing AI-driven workflows using Next.js, Supabase, n8n, and Edge Functions. A major focus of my internship is migrating business logic from n8n workflows to Supabase Edge Functions to improve performance, reduce unnecessary CPU usage using deno runtime in edge functions, and create a more efficient  ERP systems.
+
+Alongside development, I also collaborate closely with fellow interns by leading small teams, breaking down tasks, reviewing implementation approaches, and helping ensure projects are delivered efficiently.",
 
   avatarUrl: "/pfp.jpeg",
 
@@ -107,9 +111,7 @@ export const DATA = {
         start: "June 2026", // update with actual start date
         end: "Present",
         description:
-          "My current work involves building and optimizing AI-driven workflows using Next.js, Supabase, n8n, and Edge Functions. A major focus of my internship is migrating business logic from n8n workflows to Supabase Edge Functions to improve performance, reduce unnecessary CPU usage using deno runtime in edge functions, and create a more efficient  ERP systems.
-
-Alongside development, I also collaborate closely with fellow interns by leading small teams, breaking down tasks, reviewing implementation approaches, and helping ensure projects are delivered efficiently.",
+          "My current work involves building and optimizing AI-driven workflows using Next.js, Supabase, n8n, and Edge Functions. A major focus of my internship is migrating business logic from n8n workflows to Supabase Edge Functions to improve performance, reduce unnecessary CPU usage using deno runtime in edge functions, and create a more efficient  ERP systems. Alongside development, I also collaborate closely with fellow interns by leading small teams, breaking down tasks, reviewing implementation approaches, and helping ensure projects are delivered efficiently.",
       }
   ],
 
