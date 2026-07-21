@@ -13,7 +13,7 @@ export const DATA = {
   summary:
     "I'm a third-year Computer Science student at VIT with a strong interest in contributing to scalable software and AI-powered applications. Currently, I'm working as an AI Full Stack Developer Intern at Hivon Automations LLP. My current work involves building and optimizing AI-driven workflows using Next.js, Supabase, n8n, and Edge Functions. A major focus of my internship is migrating business logic from n8n workflows to Supabase Edge Functions to improve performance, reduce unnecessary CPU usage using deno runtime in edge functions, and create a more efficient  ERP systems. Alongside development, I also collaborate closely with fellow interns by leading small teams, breaking down tasks, reviewing implementation approaches, and helping ensure projects are delivered efficiently.",
 
-  avatarUrl: "/pfp.jpeg",
+  avatarUrl: "/Metro_Subway.png",
 
   skills: [
     "Meta Graph API",
