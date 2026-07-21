@@ -99,7 +99,7 @@ export const DATA = {
      {
         company: "Hivon Automations LLP",
         href: "https://www.hivon.in/", // add company website if available
-        badges: ["Contract"],
+        badges: ["Internship"],
         location: "hybrid, Noida", 
         title: "AI Full Stack Developer",
         logoUrl: "/hivon.png",
