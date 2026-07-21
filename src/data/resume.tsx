@@ -57,10 +57,10 @@ export const DATA = {
     },
   ],
 
-  // availability: {
-  //   status: "Available",
-  //   message: "Open to internships and software engineering opportunities",
-  // },
+  availability: {
+    status: "Available",
+    message: "Open to internships and software engineering opportunities",
+  },
 
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
 
